@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cash/notification.dart';
 import 'package:flutter_cash/ui/bar_widget.dart';
-import 'package:flutter_cash/ui/video_cash_3.dart';
+import 'package:flutter_cash/ui/video_cash.dart';
 
 class PlayData {
   PlayData(this.dataSource, this.position, this.duration,

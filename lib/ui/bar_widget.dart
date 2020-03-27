@@ -56,16 +56,6 @@ class BarWidget extends StatelessWidget {
                           width: devicesWidth,
                           child: Row(
                             children: <Widget>[
-                              CircleAvatar(
-                                radius: 40,
-                                backgroundColor: Colors.transparent,
-                                child: IconButton(
-                                  icon: Icon(Icons.favorite),
-                                  tooltip: '分享到微信',
-                                  iconSize: 80,
-                                  padding: EdgeInsets.zero,
-                                ),
-                              ),
                               IconButton(
                                 icon: Icon(Icons.favorite),
                                 tooltip: '分享到微信',
